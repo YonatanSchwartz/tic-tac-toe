@@ -1,5 +1,7 @@
 //edit player info
 let playerToEdit;
+let roundNumber = 1;
+const winnerInfoElement = document.getElementById('winner-info');
 let playersData = [{username: 'PLAYER1', symbol: 'X'}, {username: 'PLAYER2', symbol: 'O'}];
 const errorsOutputElement = document.getElementById("error-msg");
 

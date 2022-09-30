@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  padding: 3rem;
+  padding: 1.5rem;
 
   color: white;
   text-align: center;
@@ -134,7 +134,7 @@ aside h2 {
   width: 50%;
   margin: auto;
   padding: 1.5rem;
-
+  
   color: white;
   text-align: center;
 
@@ -148,6 +148,10 @@ aside h2 {
 
 #game p {
   text-align: center;
+}
+
+#game>p{
+  display: none;
 }
 
 #active-player {
