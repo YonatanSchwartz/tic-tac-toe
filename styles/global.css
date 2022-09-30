@@ -1,0 +1,19 @@
+button {
+  border: 1px transparent;
+  padding: 0.5rem 1.5rem;
+
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.purple-btn {
+  color: white;
+
+  background-color: var(--secondary-color);
+}
+
+.transparent-btn {
+  color: var(--secondary-color);
+
+  background-color: transparent;
+}
