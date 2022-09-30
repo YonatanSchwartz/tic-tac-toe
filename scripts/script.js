@@ -1,8 +1,8 @@
 //edit player info
 let playerToEdit;
+let playersData = [{username: 'PLAYER1', symbol: 'X'}, {username: 'PLAYER2', symbol: 'O'}];
 const errorsOutputElement = document.getElementById("error-msg");
-const player1Name = document.getElementById("player1-name").textContent;
-const player2Name = document.getElementById("player2-name").textContent;
+
 const gameData = [
   [0, 0, 0],
   [0, 0, 0],
